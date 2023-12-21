@@ -1,0 +1,27 @@
+/*couleurs*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #96bf48;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .headerBlock {
+  width: 50%;
+  color: white;
+}
+header .headerBlock .logo {
+  font-size: 40px;
+}
+
+.svg {
+  margin-top: -20px;
+}
+
+/*# sourceMappingURL=style.css.map */

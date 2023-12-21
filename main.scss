@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./mixins";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    background:$greenShopify;
+    @include display(flex,center,center,column);
+    .headerBlock{
+        width:50%;
+        color:$white;
+        .logo{
+            font-size:40px;
+        }
+    }
+}
+.svg{
+    margin-top:-20px;
+}
